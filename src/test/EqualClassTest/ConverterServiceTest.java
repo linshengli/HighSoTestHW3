@@ -76,7 +76,6 @@ public class ConverterServiceTest {
 
     }
 
-
     @Test
     public void test_formatResult() {
         assertEquals("0.3341235", ConverterService.formatResult(0.3341234324));
