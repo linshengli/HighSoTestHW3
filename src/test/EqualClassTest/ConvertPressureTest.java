@@ -4,6 +4,8 @@ import converter.Constants;
 import converter.ConvertPressure;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import test.RegressionTest.ModificationTestCase;
 
 import static org.junit.Assert.assertEquals;
 
@@ -66,6 +68,7 @@ public class ConvertPressureTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
+    @Category(ModificationTestCase.class)
     public void test_Valid_Exception_GetResult3_m() {
         ConvertPressure convert = new ConvertPressure() {
             public Double getConversion(String targetUnit, Double value) {
@@ -117,6 +120,7 @@ public class ConvertPressureTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
+    @Category(ModificationTestCase.class)
     public void test_Valid_Exception_GetResult7_m() {
         ConvertPressure convert = new ConvertPressure() {
             public Double getConversion(String targetUnit, Double value) {
@@ -157,6 +161,7 @@ public class ConvertPressureTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
+    @Category(ModificationTestCase.class)
     public void test_Invalid_GetResult2_m() {
         ConvertPressure cp = new ConvertPressure() {
             public Double getConversion(String targetUnit, Double value) {
@@ -207,6 +212,7 @@ public class ConvertPressureTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
+    @Category(ModificationTestCase.class)
     public void test_Invalid_GetResult6_m() {
         ConvertPressure cp = new ConvertPressure() {
             public Double getConversion(String targetUnit, Double value) {
@@ -237,6 +243,7 @@ public class ConvertPressureTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
+    @Category(ModificationTestCase.class)
     public void test_Invalid_GetResult_m_1() {
         ConvertPressure cp = new ConvertPressure() {
             public Double getConversion(String targetUnit, Double value) {
@@ -247,6 +254,7 @@ public class ConvertPressureTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
+    @Category(ModificationTestCase.class)
     public void test_Invalid_GetResult_m_2() {
         ConvertPressure cp = new ConvertPressure() {
             public Double getConversion(String targetUnit, Double value) {
@@ -257,6 +265,7 @@ public class ConvertPressureTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
+    @Category(ModificationTestCase.class)
     public void test_Invalid_GetResult_m_3() {
         ConvertPressure cp = new ConvertPressure() {
             public Double getConversion(String targetUnit, Double value) {
@@ -267,6 +276,7 @@ public class ConvertPressureTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
+    @Category(ModificationTestCase.class)
     public void test_Invalid_GetResult_m_4() {
         ConvertPressure cp = new ConvertPressure() {
             public Double getConversion(String targetUnit, Double value) {
@@ -277,6 +287,7 @@ public class ConvertPressureTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
+    @Category(ModificationTestCase.class)
     public void test_Invalid_GetResult_m_5() {
         ConvertPressure cp = new ConvertPressure() {
             public Double getConversion(String targetUnit, Double value) {
@@ -308,6 +319,7 @@ public class ConvertPressureTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
+    @Category(ModificationTestCase.class)
     public void test_Invalid_GetResult10_m() {
         ConvertPressure cp = new ConvertPressure() {
             public Double getConversion(String targetUnit, Double value) {
@@ -358,6 +370,7 @@ public class ConvertPressureTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
+    @Category(ModificationTestCase.class)
     public void test_Invalid_GetResult14_m() {
         ConvertPressure cp = new ConvertPressure() {
             public Double getConversion(String targetUnit, Double value) {
@@ -402,6 +415,7 @@ public class ConvertPressureTest {
 
 
     @Test
+    @Category(ModificationTestCase.class)
     public void testGetConversion_m() {
         ConvertPressure cp = new ConvertPressure();
         assertEquals(1.0, cp.getConversion(Constants.MPA, Double.valueOf(1000000)), 0.0000001);

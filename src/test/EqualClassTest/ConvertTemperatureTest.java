@@ -3,11 +3,14 @@ package test.EqualClassTest;
 import converter.Constants;
 import converter.ConvertTemperature;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import test.RegressionTest.ModificationTestCase;
 
 import static org.junit.Assert.assertEquals;
 
 public class ConvertTemperatureTest {
     @Test
+    @Category(ModificationTestCase.class)
     public void test_Valid_GetResult1() {
         ConvertTemperature convert = new ConvertTemperature() {
             public Double getConversion(String targetUnit, Double value) {
