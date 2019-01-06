@@ -38,8 +38,6 @@ public class ConvertTemperature {
         value = getConversion(targetUnit, value);    // Convert the default value into the desired unit.
         return value;
     }
-
-
     /**
      * @name getConversion
      * @desc Convert the default value into the desired unit. This function sets the global VALUE variable.

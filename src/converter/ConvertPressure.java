@@ -37,8 +37,6 @@ public class ConvertPressure {
         value = getConversion(targetUnit, value);
         return value;
     }
-
-
     /**
      * Pre requirement: value >= 0.0
      *
