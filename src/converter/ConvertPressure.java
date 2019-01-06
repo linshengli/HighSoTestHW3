@@ -27,6 +27,9 @@ public class ConvertPressure {
             case Constants.KPA:
                 value = value * 1000;
                 break;
+            case Constants.MPA:
+                value = value * 1000 * 1000;
+                break;
             case Constants.ATM:
                 value = value * 101325;
                 break;
@@ -38,19 +41,23 @@ public class ConvertPressure {
 
     /**
      * Pre requirement: value >= 0.0
+     *
      * @name getConversion
      * @desc Convert the default value into the desired unit. This function sets the global VALUE variable.
      */
     public Double getConversion(String targetUnit, Double value) {
         switch (targetUnit) {
             case Constants.PA:
-                value = value / 1;
+                value = value / 1.0;
                 break;
             case Constants.KPA:
-                value = value / 1000;
+                value = value / 1000.0;
+                break;
+            case Constants.MPA:
+                value = value / 1000.0 / 1000.0;
                 break;
             case Constants.ATM:
-                value = value / 101325;
+                value = value / 101325.0;
                 break;
             default:
                 return value;

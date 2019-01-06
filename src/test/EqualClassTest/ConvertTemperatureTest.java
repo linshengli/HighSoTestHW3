@@ -14,17 +14,17 @@ public class ConvertTemperatureTest {
                 return value;
             }
         };
-        assertEquals(1.0, convert.getResult(Constants.FAHRENHEIT, Constants.FAHRENHEIT, Double.valueOf(33.8)), 0.0000001);
-        assertEquals(1.0, convert.getResult(Constants.FAHRENHEIT, Constants.KELVIN, Double.valueOf(33.8)), 0.0000001);
-        assertEquals(1.0, convert.getResult(Constants.FAHRENHEIT, Constants.CELSIUS, Double.valueOf(33.8)), 0.0000001);
+        assertEquals(0.0, convert.getResult(Constants.FAHRENHEIT, Constants.FAHRENHEIT, Double.valueOf(-459.67)), 0.0000001);
+        assertEquals(0.0, convert.getResult(Constants.FAHRENHEIT, Constants.KELVIN, Double.valueOf(-459.67)), 0.0000001);
+        assertEquals(0.0, convert.getResult(Constants.FAHRENHEIT, Constants.CELSIUS, Double.valueOf(-459.67)), 0.0000001);
 //
-        assertEquals(-272.15, convert.getResult(Constants.KELVIN, Constants.FAHRENHEIT, Double.valueOf(1)), 0.0000001);
-        assertEquals(-272.15, convert.getResult(Constants.KELVIN, Constants.KELVIN, Double.valueOf(1)), 0.0000001);
-        assertEquals(-272.15, convert.getResult(Constants.KELVIN, Constants.CELSIUS, Double.valueOf(1)), 0.0000001);
+        assertEquals(1.0, convert.getResult(Constants.KELVIN, Constants.FAHRENHEIT, Double.valueOf(1)), 0.0000001);
+        assertEquals(1.0, convert.getResult(Constants.KELVIN, Constants.KELVIN, Double.valueOf(1)), 0.0000001);
+        assertEquals(1.0, convert.getResult(Constants.KELVIN, Constants.CELSIUS, Double.valueOf(1)), 0.0000001);
 //
-        assertEquals(1.0, convert.getResult(Constants.CELSIUS, Constants.FAHRENHEIT, Double.valueOf(1)), 0.0000001);
-        assertEquals(1.0, convert.getResult(Constants.CELSIUS, Constants.KELVIN, Double.valueOf(1)), 0.0000001);
-        assertEquals(1.0, convert.getResult(Constants.CELSIUS, Constants.CELSIUS, Double.valueOf(1)), 0.0000001);
+        assertEquals(274.15, convert.getResult(Constants.CELSIUS, Constants.FAHRENHEIT, Double.valueOf(1)), 0.0000001);
+        assertEquals(274.15, convert.getResult(Constants.CELSIUS, Constants.KELVIN, Double.valueOf(1)), 0.0000001);
+        assertEquals(274.15, convert.getResult(Constants.CELSIUS, Constants.CELSIUS, Double.valueOf(1)), 0.0000001);
     }
 
     @Test(expected = IllegalArgumentException.class)
@@ -262,19 +262,19 @@ public class ConvertTemperatureTest {
     @Test
     public void testGetConversion1() {
         ConvertTemperature cp = new ConvertTemperature();
-        assertEquals(33.8, cp.getConversion(Constants.FAHRENHEIT, Double.valueOf(1)), 0.0000001);
+        assertEquals(-457.87, cp.getConversion(Constants.FAHRENHEIT, Double.valueOf(1)), 0.0000001);
     }
 
     @Test
     public void testGetConversion2() {
         ConvertTemperature cp = new ConvertTemperature();
-        assertEquals(274.15, cp.getConversion(Constants.KELVIN, Double.valueOf(1)), 0.0000001);
+        assertEquals(1.0, cp.getConversion(Constants.KELVIN, Double.valueOf(1)), 0.0000001);
     }
 
     @Test
     public void testGetConversion3() {
         ConvertTemperature cp = new ConvertTemperature();
-        assertEquals(1.0, cp.getConversion(Constants.CELSIUS, Double.valueOf(1)), 0.0000001);
+        assertEquals(-272.15, cp.getConversion(Constants.CELSIUS, Double.valueOf(1)), 0.0000001);
     }
 
 

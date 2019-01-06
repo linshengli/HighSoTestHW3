@@ -12,6 +12,10 @@ public class ConvertPressureTest {
     public void setUp() {
     }
 
+    /*
+        Before modification: 9
+        After modification: 16
+     */
     @Test
     public void test_Valid_GetResult1() {
         ConvertPressure convert = new ConvertPressure() {
@@ -21,14 +25,23 @@ public class ConvertPressureTest {
         };
         assertEquals(1.0, convert.getResult(Constants.PA, Constants.PA, Double.valueOf(1)), 0.0000001);
         assertEquals(1.0, convert.getResult(Constants.PA, Constants.KPA, Double.valueOf(1.0)), 0.0000001);
+        assertEquals(1.0, convert.getResult(Constants.PA, Constants.MPA, Double.valueOf(1.0)), 0.0000001);
         assertEquals(1.0, convert.getResult(Constants.PA, Constants.ATM, Double.valueOf(1.0)), 0.0000001);
+
 
         assertEquals(1000.0, convert.getResult(Constants.KPA, Constants.PA, Double.valueOf(1)), 0.0000001);
         assertEquals(1000.0, convert.getResult(Constants.KPA, Constants.KPA, Double.valueOf(1)), 0.0000001);
+        assertEquals(1000.0, convert.getResult(Constants.KPA, Constants.MPA, Double.valueOf(1)), 0.0000001);
         assertEquals(1000.0, convert.getResult(Constants.KPA, Constants.ATM, Double.valueOf(1)), 0.0000001);
+
+        assertEquals(1000000.0, convert.getResult(Constants.MPA, Constants.PA, Double.valueOf(1)), 0.0000001);
+        assertEquals(1000000.0, convert.getResult(Constants.MPA, Constants.KPA, Double.valueOf(1)), 0.0000001);
+        assertEquals(1000000.0, convert.getResult(Constants.MPA, Constants.MPA, Double.valueOf(1)), 0.0000001);
+        assertEquals(1000000.0, convert.getResult(Constants.MPA, Constants.ATM, Double.valueOf(1)), 0.0000001);
 
         assertEquals(101325.0, convert.getResult(Constants.ATM, Constants.PA, Double.valueOf(1)), 0.0000001);
         assertEquals(101325.0, convert.getResult(Constants.ATM, Constants.KPA, Double.valueOf(1)), 0.0000001);
+        assertEquals(101325.0, convert.getResult(Constants.ATM, Constants.MPA, Double.valueOf(1)), 0.0000001);
         assertEquals(101325.0, convert.getResult(Constants.ATM, Constants.ATM, Double.valueOf(1)), 0.0000001);
     }
 
@@ -50,6 +63,16 @@ public class ConvertPressureTest {
             }
         };
         convert.getResult(Constants.KPA, "invalid", Double.valueOf(1));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void test_Valid_Exception_GetResult3_m() {
+        ConvertPressure convert = new ConvertPressure() {
+            public Double getConversion(String targetUnit, Double value) {
+                return value;
+            }
+        };
+        convert.getResult(Constants.MPA, "invalid", Double.valueOf(1));
     }
 
     @Test(expected = IllegalArgumentException.class)
@@ -94,6 +117,16 @@ public class ConvertPressureTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
+    public void test_Valid_Exception_GetResult7_m() {
+        ConvertPressure convert = new ConvertPressure() {
+            public Double getConversion(String targetUnit, Double value) {
+                return value;
+            }
+        };
+        convert.getResult("invalid", Constants.MPA, Double.valueOf(1));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
     public void test_Valid_Exception_GetResult8() {
         ConvertPressure convert = new ConvertPressure() {
             public Double getConversion(String targetUnit, Double value) {
@@ -121,6 +154,16 @@ public class ConvertPressureTest {
             }
         };
         cp.getResult(Constants.PA, Constants.KPA, Double.valueOf(-1.0));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void test_Invalid_GetResult2_m() {
+        ConvertPressure cp = new ConvertPressure() {
+            public Double getConversion(String targetUnit, Double value) {
+                return value;
+            }
+        };
+        cp.getResult(Constants.PA, Constants.MPA, Double.valueOf(-1.0));
     }
 
     @Test(expected = IllegalArgumentException.class)
@@ -164,6 +207,16 @@ public class ConvertPressureTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
+    public void test_Invalid_GetResult6_m() {
+        ConvertPressure cp = new ConvertPressure() {
+            public Double getConversion(String targetUnit, Double value) {
+                return value;
+            }
+        };
+        cp.getResult(Constants.KPA, Constants.MPA, Double.valueOf(-1.0));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
     public void test_Invalid_GetResult7() {
         ConvertPressure cp = new ConvertPressure() {
             public Double getConversion(String targetUnit, Double value) {
@@ -184,6 +237,57 @@ public class ConvertPressureTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
+    public void test_Invalid_GetResult_m_1() {
+        ConvertPressure cp = new ConvertPressure() {
+            public Double getConversion(String targetUnit, Double value) {
+                return value;
+            }
+        };
+        cp.getResult(Constants.MPA, Constants.PA, Double.valueOf(-1.0));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void test_Invalid_GetResult_m_2() {
+        ConvertPressure cp = new ConvertPressure() {
+            public Double getConversion(String targetUnit, Double value) {
+                return value;
+            }
+        };
+        cp.getResult(Constants.MPA, Constants.KPA, Double.valueOf(-1.0));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void test_Invalid_GetResult_m_3() {
+        ConvertPressure cp = new ConvertPressure() {
+            public Double getConversion(String targetUnit, Double value) {
+                return value;
+            }
+        };
+        cp.getResult(Constants.MPA, Constants.MPA, Double.valueOf(-1.0));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void test_Invalid_GetResult_m_4() {
+        ConvertPressure cp = new ConvertPressure() {
+            public Double getConversion(String targetUnit, Double value) {
+                return value;
+            }
+        };
+        cp.getResult(Constants.MPA, Constants.ATM, Double.valueOf(-1.0));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void test_Invalid_GetResult_m_5() {
+        ConvertPressure cp = new ConvertPressure() {
+            public Double getConversion(String targetUnit, Double value) {
+                return value;
+            }
+        };
+        cp.getResult(Constants.MPA, "invalid", Double.valueOf(-1.0));
+    }
+
+
+    @Test(expected = IllegalArgumentException.class)
     public void test_Invalid_GetResult9() {
         ConvertPressure cp = new ConvertPressure() {
             public Double getConversion(String targetUnit, Double value) {
@@ -201,6 +305,16 @@ public class ConvertPressureTest {
             }
         };
         cp.getResult(Constants.ATM, Constants.KPA, Double.valueOf(-1.0));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void test_Invalid_GetResult10_m() {
+        ConvertPressure cp = new ConvertPressure() {
+            public Double getConversion(String targetUnit, Double value) {
+                return value;
+            }
+        };
+        cp.getResult(Constants.ATM, Constants.MPA, Double.valueOf(-1.0));
     }
 
     @Test(expected = IllegalArgumentException.class)
@@ -244,6 +358,16 @@ public class ConvertPressureTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
+    public void test_Invalid_GetResult14_m() {
+        ConvertPressure cp = new ConvertPressure() {
+            public Double getConversion(String targetUnit, Double value) {
+                return value;
+            }
+        };
+        cp.getResult("invalid", Constants.MPA, Double.valueOf(-1.0));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
     public void test_Invalid_GetResult15() {
         ConvertPressure cp = new ConvertPressure() {
             public Double getConversion(String targetUnit, Double value) {
@@ -274,6 +398,13 @@ public class ConvertPressureTest {
     public void testGetConversion2() {
         ConvertPressure cp = new ConvertPressure();
         assertEquals(1.0, cp.getConversion(Constants.KPA, Double.valueOf(1000)), 0.0000001);
+    }
+
+
+    @Test
+    public void testGetConversion_m() {
+        ConvertPressure cp = new ConvertPressure();
+        assertEquals(1.0, cp.getConversion(Constants.MPA, Double.valueOf(1000000)), 0.0000001);
     }
 
     @Test
