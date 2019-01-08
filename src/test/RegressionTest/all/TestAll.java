@@ -1,19 +1,21 @@
-package test.RegressionTest;
+package test.RegressionTest.all;
 
-import org.junit.experimental.categories.Categories;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import test.EqualClassTest.ConvertPressureTest;
 import test.EqualClassTest.ConvertTemperatureTest;
+import test.EqualClassTest.ConverterServiceTest;
 
-@RunWith(Categories.class)
-@Categories.IncludeCategory(ModificationTestCase.class)
+
+@RunWith(Suite.class)
 @Suite.SuiteClasses(
         {
                 ConvertPressureTest.class,
-                ConvertTemperatureTest.class
+                ConvertTemperatureTest.class,
+                ConverterServiceTest.class
         }
 )
-public class TestBasedModification {
+public class TestAll {
+
 
 }

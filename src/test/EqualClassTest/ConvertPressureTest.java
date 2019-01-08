@@ -5,7 +5,7 @@ import converter.ConvertPressure;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import test.RegressionTest.ModificationTestCase;
+import test.RegressionTest.modification.ModificationTestCase;
 
 import static org.junit.Assert.assertEquals;
 

@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56a85294-2e84-4da5-ac90-f6dd964e6d8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/converter/ConvertPressure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/converter/ConvertPressure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/converter/ConvertTemperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/converter/ConvertTemperature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业三软件测试报告.docx" beforeDir="false" afterPath="$PROJECT_DIR$/作业三软件测试报告.docx" afterDir="false" />
+    <list default="true" id="56a85294-2e84-4da5-ac90-f6dd964e6d8e" name="Default Changelist" comment="fix random bug;&#10;add more random choices:0.25,0.50...">
+      <change afterPath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/all/TestAll.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/modification/ModificationTestCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/modification/TestBasedModification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/random/Random25.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/random/Random50.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/risk/TestBasedRisk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/RegressionTest/modification/ModificationTestCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/RegressionTest/random/Random25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/RegressionTest/random/Random50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Results - RandomTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/production/HighSoTestHW3/converter/ConvertPressure.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/production/HighSoTestHW3/converter/ConvertPressure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/production/HighSoTestHW3/converter/ConvertTemperature.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/production/HighSoTestHW3/converter/ConvertTemperature.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/EqualClassTest/ConvertPressureTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/EqualClassTest/ConvertPressureTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/EqualClassTest/ConvertTemperatureTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/EqualClassTest/ConvertTemperatureTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/ModificationTestCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/TestAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/TestBasedModification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/TestBasedRisk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/random/FilteredSuite$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/random/FilteredSuite$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/random/FilteredSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/random/FilteredSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/random/RandomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/random/RandomTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/random/SuiteMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/production/HighSoTestHW3/test/RegressionTest/random/SuiteMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/EqualClassTest/ConvertPressureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/EqualClassTest/ConvertPressureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/EqualClassTest/ConvertTemperatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/EqualClassTest/ConvertTemperatureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/RegressionTest/ModificationTestCase.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/RegressionTest/TestAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/RegressionTest/all/TestAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/RegressionTest/TestBasedModification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/RegressionTest/modification/TestBasedModification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/RegressionTest/TestBasedRisk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/RegressionTest/risk/TestBasedRisk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/RegressionTest/random/FilteredSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/RegressionTest/random/FilteredSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/RegressionTest/random/RandomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/RegressionTest/random/RandomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/RegressionTest/random/SuiteMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/RegressionTest/random/SuiteMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业三软件测试报告.docx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,42 +47,47 @@
     <session id="136522538">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
+          <entry key="class" value="5" />
           <entry key="gitattributes" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="70" />
-          <entry key="kt" value="2" />
+          <entry key="java" value="89" />
+          <entry key="kt" value="4" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
+          <entry key="CLASS" value="5" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="70" />
-          <entry key="Kotlin" value="2" />
+          <entry key="JAVA" value="89" />
+          <entry key="Kotlin" value="4" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1330" />
+          <entry key="java" value="1497" />
+          <entry key="kt" value="10" />
+          <entry key="txt" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1330" />
+          <entry key="JAVA" value="1497" />
+          <entry key="Kotlin" value="10" />
+          <entry key="PLAIN_TEXT" value="54" />
         </counts>
       </usages-collector>
     </session>
@@ -60,85 +95,39 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/TestBasedRisk.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/TestBasedModification.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/EqualClassTest/ConvertPressureTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="417" column="41" selection-start-line="417" selection-start-column="41" selection-end-line="417" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/random/RandomTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/EqualClassTest/ConvertTemperatureTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="284" column="16" selection-start-line="284" selection-start-column="16" selection-end-line="284" selection-end-column="16" />
+            <state relative-caret-position="24">
+              <caret line="19" column="88" selection-start-line="19" selection-start-column="88" selection-end-line="19" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/converter/ConvertTemperature.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/converter/ConvertPressure.java">
+        <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/random/FilteredSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="48">
+              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1700#1701#0" expanded="true" />
+                <element signature="e#1743#1744#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/ModificationTestCase.kt">
+        <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/random/Random50.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <state relative-caret-position="408">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,13 +160,18 @@
         <option value="$PROJECT_DIR$/src/test/RegressionTest/TestRandom.java" />
         <option value="$PROJECT_DIR$/src/test/RegressionTest/RandomTest.java" />
         <option value="$PROJECT_DIR$/src/test/EqualClassTest/ConvertTemperatureTest.java" />
-        <option value="$PROJECT_DIR$/src/test/RegressionTest/ModificationTestCase.kt" />
         <option value="$PROJECT_DIR$/src/test/RegressionTest/TestBasedModification.java" />
         <option value="$PROJECT_DIR$/src/test/EqualClassTest/ConvertPressureTest.java" />
-        <option value="$PROJECT_DIR$/src/test/RegressionTest/random/RandomTest.java" />
         <option value="$PROJECT_DIR$/src/test/RegressionTest/TestBasedRisk.java" />
         <option value="$PROJECT_DIR$/src/converter/ConvertTemperature.java" />
         <option value="$PROJECT_DIR$/src/converter/ConvertPressure.java" />
+        <option value="$PROJECT_DIR$/src/test/RegressionTest/ModificationTestCase.kt" />
+        <option value="$PROJECT_DIR$/src/test/RegressionTest/random/RandomTest.java" />
+        <option value="$PROJECT_DIR$/src/test/RegressionTest/random/SuiteMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/RegressionTest/modification/TestBasedModification.java" />
+        <option value="$PROJECT_DIR$/src/test/RegressionTest/random/Random50.java" />
+        <option value="$PROJECT_DIR$/src/test/RegressionTest/random/Random25.java" />
+        <option value="$PROJECT_DIR$/src/test/RegressionTest/random/FilteredSuite.java" />
       </list>
     </option>
   </component>
@@ -188,7 +182,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="947" />
+    <option name="x" value="946" />
     <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
@@ -199,6 +193,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,11 +212,54 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="converter" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HighSoTestHW3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HighSoTestHW3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HighSoTestHW3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HighSoTestHW3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="EqualClassTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HighSoTestHW3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HighSoTestHW3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="RegressionTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HighSoTestHW3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HighSoTestHW3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="RegressionTest" type="462c0819:PsiDirectoryNode" />
+              <item name="modification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HighSoTestHW3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HighSoTestHW3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="RegressionTest" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HighSoTestHW3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HighSoTestHW3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="RegressionTest" type="462c0819:PsiDirectoryNode" />
+              <item name="risk" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,7 +268,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546786206444" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546949189002" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -248,6 +286,9 @@
       <recent name="test.EqualClassTest" />
       <recent name="converter" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="test.RegressionTest.modification" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -264,9 +305,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBasedRisk">
-    <configuration name="TestRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.RegressionTest.random.TestRandom" />
+  <component name="RunManager" selected="JUnit.Random50">
+    <configuration name="Random25" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HighSoTestHW3" />
       <extension name="coverage">
         <pattern>
@@ -274,6 +314,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test.RegressionTest.random" />
+      <option name="MAIN_CLASS_NAME" value="test.RegressionTest.random.Random25" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Random50" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HighSoTestHW3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.RegressionTest.random.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.RegressionTest.random" />
+      <option name="MAIN_CLASS_NAME" value="test.RegressionTest.random.Random50" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -292,30 +348,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HighSoTestHW3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.RegressionTest.random.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.RegressionTest" />
-      <option name="MAIN_CLASS_NAME" value="test.RegressionTest.TestAll" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestBasedModification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HighSoTestHW3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.RegressionTest.*" />
+          <option name="PATTERN" value="test.RegressionTest.all.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.RegressionTest" />
-      <option name="MAIN_CLASS_NAME" value="test.RegressionTest.TestBasedModification" />
+      <option name="PACKAGE_NAME" value="test.RegressionTest.modification" />
+      <option name="MAIN_CLASS_NAME" value="test.RegressionTest.modification.TestBasedModification" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -324,30 +366,30 @@
       <module name="HighSoTestHW3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.RegressionTest.*" />
+          <option name="PATTERN" value="test.RegressionTest.all.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.RegressionTest" />
-      <option name="MAIN_CLASS_NAME" value="test.RegressionTest.TestBasedRisk" />
+      <option name="PACKAGE_NAME" value="test.RegressionTest.risk" />
+      <option name="MAIN_CLASS_NAME" value="test.RegressionTest.risk.TestBasedRisk" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestAll" />
-      <item itemvalue="Application.TestRandom" />
       <item itemvalue="JUnit.RandomTest" />
       <item itemvalue="JUnit.TestBasedModification" />
       <item itemvalue="JUnit.TestBasedRisk" />
+      <item itemvalue="JUnit.Random50" />
+      <item itemvalue="JUnit.Random25" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestBasedRisk" />
-        <item itemvalue="JUnit.TestBasedModification" />
+        <item itemvalue="JUnit.Random50" />
+        <item itemvalue="JUnit.Random25" />
         <item itemvalue="JUnit.RandomTest" />
-        <item itemvalue="JUnit.TestAll" />
-        <item itemvalue="Application.TestRandom" />
+        <item itemvalue="JUnit.TestBasedModification" />
+        <item itemvalue="JUnit.TestBasedRisk" />
       </list>
     </recent_temporary>
   </component>
@@ -365,50 +407,51 @@
       <workItem from="1546690354699" duration="2034000" />
       <workItem from="1546692483006" duration="4075000" />
       <workItem from="1546778637061" duration="5647000" />
-      <workItem from="1546784351931" duration="1840000" />
+      <workItem from="1546784351931" duration="1871000" />
+      <workItem from="1546840977596" duration="5423000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBasedModification - 2019.01.06 at 22h 20m 35s.xml">
-      <configuration name="TestBasedModification" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBasedModification - 2019.01.06 at 22h 22m 43s.xml">
-      <configuration name="TestBasedModification" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBasedModification - 2019.01.06 at 22h 24m 44s.xml">
-      <configuration name="TestBasedModification" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RandomTest - 2019.01.06 at 22h 25m 03s.xml">
+    <history-entry file="RandomTest - 2019.01.08 at 20h 01m 31s.xml">
       <configuration name="RandomTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RandomTest - 2019.01.06 at 22h 25m 20s.xml">
-      <configuration name="RandomTest" configurationId="JUnit" />
+    <history-entry file="Random50 - 2019.01.08 at 20h 02m 35s.xml">
+      <configuration name="Random50" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RandomTest - 2019.01.06 at 22h 25m 35s.xml">
-      <configuration name="RandomTest" configurationId="JUnit" />
+    <history-entry file="Random25 - 2019.01.08 at 20h 02m 53s.xml">
+      <configuration name="Random25" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RandomTest - 2019.01.06 at 22h 25m 51s.xml">
-      <configuration name="RandomTest" configurationId="JUnit" />
+    <history-entry file="Random25 - 2019.01.08 at 20h 03m 04s.xml">
+      <configuration name="Random25" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBasedModification - 2019.01.06 at 22h 26m 01s.xml">
-      <configuration name="TestBasedModification" configurationId="JUnit" />
+    <history-entry file="Random50 - 2019.01.08 at 20h 05m 56s.xml">
+      <configuration name="Random50" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBasedRisk - 2019.01.06 at 22h 30m 26s.xml">
-      <configuration name="TestBasedRisk" configurationId="JUnit" />
+    <history-entry file="Random50 - 2019.01.08 at 20h 06m 02s.xml">
+      <configuration name="Random50" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBasedRisk - 2019.01.06 at 22h 31m 59s.xml">
-      <configuration name="TestBasedRisk" configurationId="JUnit" />
+    <history-entry file="Random50 - 2019.01.08 at 20h 06m 05s.xml">
+      <configuration name="Random50" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Random50 - 2019.01.08 at 20h 06m 11s.xml">
+      <configuration name="Random50" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Random50 - 2019.01.08 at 20h 06m 24s.xml">
+      <configuration name="Random50" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Random50 - 2019.01.08 at 20h 06m 31s.xml">
+      <configuration name="Random50" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14250000" />
+    <option name="totallyTimeSpent" value="19704000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13404825" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21514745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -417,8 +460,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.5916084" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.56643355" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.45314685" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4755245" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -488,15 +531,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix random bug;&#10;add more random choices:0.25,0.50..." />
+    <option name="LAST_COMMIT_MESSAGE" value="fix random bug;&#10;add more random choices:0.25,0.50..." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/EqualClassTest/ConvertPressureTest.java</url>
-          <line>420</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/RegressionTest/random/TestRandom.java</url>
           <line>24</line>
@@ -565,54 +606,6 @@
     <entry file="file://$PROJECT_DIR$/Test Results - RandomTest.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/experimental/categories/Categories.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="306" selection-start-line="306" selection-end-line="306" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/random/FilteredSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/random/SuiteMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/random/TestRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/TestAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/EqualClassTest/ConverterServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -623,44 +616,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/ModificationTestCase.kt">
+    <entry file="file://$PROJECT_DIR$/src/converter/ConvertTemperature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="936">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/converter/ConvertPressure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="252" selection-start-line="252" selection-end-line="252" />
+          <folding>
+            <element signature="e#10677#10678#0" expanded="true" />
+            <element signature="e#10742#10743#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/EqualClassTest/ConvertPressureTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="417" column="41" selection-start-line="417" selection-start-column="41" selection-end-line="417" selection-end-column="41" />
+        <state relative-caret-position="243">
+          <caret line="422" lean-forward="true" selection-start-line="422" selection-end-line="422" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/experimental/categories/Categories.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2016">
+          <caret line="125" column="8" lean-forward="true" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="495" column="6" lean-forward="true" selection-start-line="495" selection-start-column="6" selection-end-line="495" selection-end-column="6" />
+          <folding>
+            <element signature="e#21068#21069#0" expanded="true" />
+            <element signature="e#21142#21143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/random/SuiteMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/all/TestAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/modification/ModificationTestCase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/modification/TestBasedModification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/random/TestRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/random/RandomTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="432">
+          <caret line="18" column="1" lean-forward="true" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/TestBasedModification.java">
+    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/random/Random25.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="264">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/TestBasedRisk.java">
+    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/risk/TestBasedRisk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="360">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -669,25 +742,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/EqualClassTest/ConvertTemperatureTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="284" column="16" selection-start-line="284" selection-start-column="16" selection-end-line="284" selection-end-column="16" />
+        <state relative-caret-position="24">
+          <caret line="19" column="88" selection-start-line="19" selection-start-column="88" selection-end-line="19" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/converter/ConvertTemperature.java">
+    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/random/Random50.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="408">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/converter/ConvertPressure.java">
+    <entry file="file://$PROJECT_DIR$/src/test/RegressionTest/random/FilteredSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="48">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1700#1701#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

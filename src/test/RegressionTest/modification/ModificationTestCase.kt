@@ -1,0 +1,3 @@
+package test.RegressionTest.modification
+
+interface ModificationTestCase

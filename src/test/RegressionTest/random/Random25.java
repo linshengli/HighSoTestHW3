@@ -14,6 +14,6 @@ import test.EqualClassTest.ConverterServiceTest;
                 ConverterServiceTest.class
 
         })
-@SuiteMethods(0.5)
-public class RandomTest {
+@SuiteMethods(0.25)
+public class Random25 {
 }
